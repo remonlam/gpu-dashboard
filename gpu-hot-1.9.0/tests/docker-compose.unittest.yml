@@ -1,8 +1,0 @@
-services:
-  unittest:
-    build:
-      context: ..
-      dockerfile: tests/Dockerfile.unittest
-    container_name: gpu-hot-unittest
-    environment:
-      - PYTHONDONTWRITEBYTECODE=1
