@@ -1,6 +1,6 @@
 services:
   gpu-hot:
-    image: ghcr.io/psalias2006/gpu-hot:latest
+    image: ghcr.io/psalias2006/gpu-hot:1.9.0
     container_name: gpu-dashboard
     ports:
       - "1312:1312"
