@@ -1,3 +1,4 @@
+name: gpu-dashboard
 services:
   gpu-hot:
     image: ghcr.io/psalias2006/gpu-hot:1.9.0

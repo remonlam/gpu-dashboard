@@ -1,0 +1,8 @@
+version: 2
+
+updates:
+  - package-ecosystem: "docker-compose"
+    directory: "docker-compose/"
+    schedule:
+      interval: "daily"         # Check for new versions every day
+    open-pull-requests-limit: 10
