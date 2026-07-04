@@ -3,6 +3,8 @@ set -e
 
 # --- Configuration ---
 COMPOSE_FILE="docker-compose/docker-compose.yaml"
+# Fix: Export the system hostname so Docker Compose can see it
+export HOSTNAME=$(hostname)
 
 # --- Helper: Update Sources ---
 update_sources() {
