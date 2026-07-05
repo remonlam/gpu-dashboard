@@ -79,3 +79,9 @@ To view real-time logs for debugging, run:
 ```bash
 docker compose -f docker-compose/docker-compose.yaml logs -f
 ```
+
+---
+
+## ❤️ Acknowledgements
+
+This deployment is based on the excellent work done by [psalias2006](https://github.com/psalias2006/gpu-hot). The dashboard image and core functionality are provided by the **gpu-hot** project.
