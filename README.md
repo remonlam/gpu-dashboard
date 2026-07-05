@@ -15,17 +15,11 @@ Before deploying, ensure your host machine meets the following requirements:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/remonlam/gpu-dashboard
+cd gpu-dashboard
 ```
 
-### 2. Set Permissions
-Make the deployment manager script executable:
-```bash
-chmod +x deployment.sh
-```
-
-### 3. Launch the Manager
+### 2. Launch the Manager
 Run the interactive deployment script to start the dashboard:
 ```bash
 ./deployment.sh
